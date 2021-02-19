@@ -74,9 +74,6 @@ public class Fachada {
 		if (ls_values == null)
 			return "";
 
-		
-			
-		ls_res = readURL("http://api.openweathermap.org/data/2.5/weather?q="+ls_values+"&appid=7241c511099db33048201d1e4cc20198");
 		ls_res = readURL("https://parcial1servicio.herokuapp.com/trig?valor="+ls_values+"&operacion="+ls_ope);
 		
 		
